@@ -1,0 +1,32 @@
+---
+title: "Eds212-day3-comp2"
+---
+
+## Vectors in R
+
+```{r}
+marmots <- c("blue", "green", 4, "yellow", TRUE)
+
+class(marmots)
+
+marmots
+```
+
+## Create a numeric vector
+
+```{r}
+pika <- c(12.4, 6.8 ,2.9, 8.9, 5)
+
+class(pika)
+
+pika
+```
+
+```{r}
+bear <- c(20L, 3L, 5L, 18L)
+#L makes an integer
+
+class(bear)
+
+bear
+```
